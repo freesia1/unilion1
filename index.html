@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <script
+    src="http://code.jquery.com/jquery-1.12.4.js"
+    integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/df9fa0b77f.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!------custom------>
+    <link rel="stylesheet" href="style.css"
+    </head>
+
+<body>
+    <div class="header">
+        <nav>
+    <div class="nav-wrapper">
+<!--      <a href="#!" class="brand-logo">Logo</a>-->
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars fa-2x"  aria-hidden="true"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a onclick="fnMove('1')">hobby</a></li>
+        <!--<li><a onclick="fnMove('2')">portfolio</a></li>
+        <li><a onclick="fnMove('3')">contact</a></li>-->
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a onclick="fnMove('1')">hobby</a></li>
+        <!--<li><a onclick="fnMove('2')">portfolio</a></li>
+        <li><a onclick="fnMove('3')" >contact </a></li>-->
+      </ul>
+    </div>
+  </nav>
+        <!--<div class="box">
+            <h1>Title</h1>
+            <botton class="btn">Go Contact!</botton>
+        </div> -->
+        <div class="profile">
+        </div>
+    </div>
+    <div class="contents">
+        <div class="section myInfo">
+            <span class="myName"> Yang Eun Su</span><br>
+            <span> International Studies | Kookmin University </span>
+        </div>
+        <div class="section about" id="div1">
+            <h3>Hobby</h3>
+            <img class="imgCon" src="img/11.jpg">
+             <ul class="info">
+            <li>Taking pictures</li>
+            <!--<li>International Studies</li>-->
+                 </ul></div>
+        <!--<div class="section porfolio" id="div2">
+         <h3>Portfolio</h3>
+            <img class="imgCon" src="img/box1.jpg">
+             <ul class="info">
+            <li>Kookmin University</li>
+            <li>International Studies</li>
+                 </ul>
+        </div>
+        <div class="section contact" id="div3">
+         <h3>Contact</h3>
+            <img class="imgCon" src="img/box1.jpg">
+             <ul class="info">
+            <li>Kookmin University</li>
+            <li>International Studies</li>
+                 </ul>
+        </div>-->
+    </div>
+    <script src="custom.js"></script>
+    </body>
+
+</html>
